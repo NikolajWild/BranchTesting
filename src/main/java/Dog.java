@@ -7,7 +7,7 @@ public class Dog extends Animal{
     }
 
     public String makeSound(){
-        String sound = "WRFFFFFFaSasaSasUUUUF";
+        String sound = "Wroooof";
         return sound;
     }
     public boolean eat(String kalveKød){
