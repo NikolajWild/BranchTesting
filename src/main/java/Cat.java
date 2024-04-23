@@ -6,7 +6,7 @@ public String name = "Miaowfus";
     }
 
     public String makeSound(){
-        String sound = "MIAOUW";
+        String sound = "MIAOUWasdsdasda";
         return sound;
     }
 
