@@ -5,7 +5,7 @@ public class Cat extends Animal{
     }
 
     public String makeSound(){
-        String sound = "asd";
+        String sound = "miaow";
         return sound;
     }
 }
