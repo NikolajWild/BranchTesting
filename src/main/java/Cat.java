@@ -1,6 +1,11 @@
 public class Cat extends Animal{
 
+    public Cat(String name) {
+        super(name);
+    }
+
     public String makeSound(){
-        System.out.println("MIAOUW");
+        String sound = "asd";
+        return sound;
     }
 }
