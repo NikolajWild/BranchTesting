@@ -1,6 +1,16 @@
 public class Cat extends Animal{
+public String name = "Miaowfus";
+    public Cat(String name) {
+        super(name);
+    }
 
     public String makeSound(){
-        System.out.println("MIAOUW");
+        String sound = "MIAOUW";
+        return sound;
     }
+
+    public boolean eat(String tun){
+        return true;
+    }
+
 }

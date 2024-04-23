@@ -5,4 +5,5 @@ public abstract class Animal {
         this.name = name;
     }
     public abstract String makeSound();
+    public abstract boolean eat(String foodType);
 }

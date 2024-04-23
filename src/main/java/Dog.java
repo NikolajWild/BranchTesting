@@ -1,9 +1,17 @@
 public class Dog extends Animal{
-    String dog = "Fidus";
+    public String name = "Big dawgendsen";
 
-    public String makeSound(){
-        System.out.println("WRRRRRRRRUUUF");
+
+    public Dog(String name) {
+        super(name);
     }
 
+    public String makeSound(){
+        String sound = "WRFFFFFFUUUUF";
+        return sound;
+    }
+    public boolean eat(String kalveKød){
+        return true;
+    }
 
 }
